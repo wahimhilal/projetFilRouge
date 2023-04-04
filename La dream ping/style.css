@@ -1,0 +1,120 @@
+@font-face {
+  font-family: Underdog;
+  src: url(./polices/Underdog-Regular.ttf);
+}
+
+body {
+  background-image: url(./images/bg-la-dream-ping.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+main {
+  background: #104e3d;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 1000px;
+}
+
+h1 {
+  color: #e44c35;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+h1,
+h2,
+[for="family"] {
+  font-family: Underdog, sans-serif;
+}
+
+h2,
+[for="family"] {
+  font-size: 30px;
+}
+
+h1,
+h2,
+h3,
+figcaption {
+  text-align: center;
+}
+
+p {
+  text-align: justify;  
+}
+
+p::first-letter {
+    font-size: 3rem;
+    color: #e44c35;
+    margin-right: 1rem;
+    float: left;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;  
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+hr {
+  background: #9ed259;
+  border: 2px #9ed259 solid;
+  height: 2px;
+}
+
+[type="submit"] {
+  background: #10b993;
+  color: #e44c35;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 20%;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+[type="submit"]:hover {
+  color: #10b993;
+  background-color: #e44c35;
+}
+
+.last_hr {
+  margin-top: 25px;
+}
+
+footer img{
+    transform: scale(1);transition-duration: 1s;
+}
+footer img:hover{
+    transform: scale(1.5);    
+    transition-timing-function: ease-in-out;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) { 
+  header { 
+    font-size: 50px; 
+    padding: 50px; 
+    border: 8px solid black; 
+    background: yellow; 
+  } 
+}
+
+
